@@ -1,14 +1,64 @@
+body{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+nav {
+    font-family: 'Fredoka One', cursive;
+}
 .menu-box {
+    z-index: 10;
+    position: sticky;
+    top: 0;
     background: orange;
     margin: 0;
     height: 50px;
+    box-shadow: 1px 1px 10px orange;
 } 
 .menu{
     position: absolute;
     right: 0;
-    margin: 0 10%;
+    margin: 15px 10%;
 } 
 .menu li{
     display: inline;
-    padding: 0 0 0 10px;
+    padding: 0 0 0 30px;
+}
+.menu a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #e7e9c4;
+    font-size: 20px;
+}
+.menu a:hover {
+    color: white;
+    transition: 200ms;
+}
+.bem-vindo h1{
+    margin: 10%;
+    padding: 0 15%;
+    color: white;
+    top: 50px;
+    width: 50%;
+    position: absolute;
+    font-size: 70px;
+    font-family: 'Fredoka One', cursive;
+    
+}
+.imagem-2{
+    flex: 1;
+    display: block;
+    height: 1000px;
+}
+.copyright {
+	color: #e7e9c4;
+	font-size: 13px;
+	margin: 20px 0 0;
+}
+footer {
+    position: relative;
+	text-align: center;
+	background: orange;
+	padding: 40px 0;
 }

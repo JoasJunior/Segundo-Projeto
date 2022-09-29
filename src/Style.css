@@ -8,6 +8,20 @@ body{
 nav {
     font-family: 'Fredoka One', cursive;
 }
+.mapa {
+    position: relative;
+    margin: 0px 30px -300px 15px;
+}
+.Background {
+    background: orange;
+}
+h2{
+    padding: 20px;
+    color: white;
+    margin: 20px 0 20px 0;
+    font-family: 'Fredoka One', cursive;
+    font-size: 30px;
+}
 .menu-box {
     z-index: 10;
     position: sticky;
@@ -46,6 +60,7 @@ nav {
     font-size: 3.5vw;
     font-family: 'Fredoka One', cursive;
     }
+
 .bem-vindo1{
     margin: 14%;
     padding: 0 5%;
@@ -55,11 +70,6 @@ nav {
     position: absolute;
     font-size: 3.5vw;
     font-family: 'Fredoka One', cursive;
-}
-.imagem-2{
-    flex: 1;
-    display: block;
-    height: 1000px;
 }
 .copyright {
 	color: #e7e9c4;

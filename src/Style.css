@@ -7,11 +7,13 @@ body{
   }
 nav {
     font-family: 'Fredoka One', cursive;
+    text-shadow: 1px 0px 1px black;
 }
 .mapa {
     position: relative;
-    margin: 0px 30px -300px 15px;
+    margin: 0px 30px -300px 15px;   
 }
+
 .Background {
     background: orange;
 }
@@ -29,7 +31,6 @@ h2{
     background: orange;
     margin: 0;
     height: 50px;
-    box-shadow: 1px 1px 10px orange;
 } 
 .menu{
     position: absolute;
@@ -43,7 +44,7 @@ h2{
 .menu a{
     text-transform: uppercase;
     text-decoration: none;
-    color: #e7e9c4;
+    color: white;
     font-size: 20px;
 }
 .menu a:hover {
@@ -59,6 +60,7 @@ h2{
     position: absolute;
     font-size: 3.5vw;
     font-family: 'Fredoka One', cursive;
+    text-shadow: 1px 1px 10px black;
     }
 
 .bem-vindo1{
@@ -70,9 +72,10 @@ h2{
     position: absolute;
     font-size: 3.5vw;
     font-family: 'Fredoka One', cursive;
+    text-shadow: 1px 1px 10px black;
 }
 .copyright {
-	color: #e7e9c4;
+	color: white;
 	font-size: 13px;
 	margin: 20px 0 0;
 }

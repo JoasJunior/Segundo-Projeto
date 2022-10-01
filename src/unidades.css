@@ -1,0 +1,64 @@
+body{
+    font-size: 16px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+nav {
+    font-family: 'Fredoka One', cursive;
+    text-shadow: 1px 0px 1px black;
+}
+.mapa {
+    position: relative;
+    margin: 0px 30px -300px 15px;   
+}
+
+.Background {
+    background: orange;
+}
+h2{
+    padding: 20px;
+    color: white;
+    margin: 20px 0 20px 0;
+    font-family: 'Fredoka One', cursive;
+    font-size: 30px;
+}
+.menu-box {
+    z-index: 10;
+    position: sticky;
+    top: 0;
+    background: orange;
+    margin: 0;
+    height: 50px;
+} 
+.menu{
+    position: absolute;
+    right: 0;
+    margin: 15px 10%;
+} 
+.menu li{
+    display: inline;
+    padding: 0 0 0 30px;
+}
+.menu a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.menu a:hover {
+    color: white;
+    transition: 200ms;
+}
+.copyright {
+	color: white;
+	font-size: 13px;
+	margin: 20px 0 0;
+}
+footer {
+    position: relative;
+	text-align: center;
+	background: orange;
+	padding: 40px 0;
+}
